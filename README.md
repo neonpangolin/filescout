@@ -13,16 +13,30 @@ cd /
 python3 filescout.py
 ```
 ### Supported filetypes
-**Documents**: txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
+**Documents**: 
 
-**Passwords:** htpasswd, pass, password, pem, csr, netrc, key, pgp, asc
+• txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
 
-**Emails:** eml, mbx, wab
+**Passwords:** 
 
-**Databases:** sql, nsf, php, mdb, fp3, fp5, fp7, ldb, ora, myd
+• htpasswd, pass, password, pem, csr, netrc, key, pgp, asc
 
-**Software:** env, inf, cfg, log, dotenv, inf, ini, lic, blt, conf, log, reg, env, mdb, cfm, config, avastlic
+**Emails:** 
 
-**Configurations:** ns1, pac, pcf, cfm, axd, cgi, cnf, jnlp, pcmcfg, mobileconfig
+• eml, mbx, wab
 
-**Microsoft:** lit, ldb, mdb, mny, pdb, bkf
+**Databases:** 
+
+• sql, nsf, php, mdb, fp3, fp5, fp7, ldb, ora, myd
+
+**Software:** 
+
+• env, inf, cfg, log, dotenv, inf, ini, lic, blt, conf, log, reg, env, mdb, cfm, config, avastlic
+
+**Configurations:** 
+
+• ns1, pac, pcf, cfm, axd, cgi, cnf, jnlp, pcmcfg, mobileconfig
+
+**Microsoft:** 
+
+• lit, ldb, mdb, mny, pdb, bkf

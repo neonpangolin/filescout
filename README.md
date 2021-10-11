@@ -2,6 +2,7 @@
 Filescout is a minimalistic OSINT utility, designed to expedite file lookup on any given website.
 
 ### Rquirements
+
 • requests
 
 • webbrowser
@@ -13,32 +14,18 @@ cd /
 python3 filescout.py
 ```
 ### Supported filetypes
-```
-Documents
 
-• txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
+Documents: *txt, rtf, odt, csv, xls, xlsx, odp, ppt, html, mht, xml*
 
-Passwords 
+Passwords: *htpasswd, pass, password, pem, csr, netrc, key, pgp, asc*
 
-• htpasswd, pass, password, pem, csr, netrc, key, pgp, asc
+Emails: *eml, mbx, wab*
 
-Emails
+Databases: *sql, nsf, php, mdb, fp3, fp5, fp7, ldb, ora, myd*
 
-• eml, mbx, wab
+Software: *env, inf, cfg, log, dotenv, inf, ini, lic, blt, conf, log, reg, env, mdb, cfm, config, avastlic*
 
-Databases
+Configurations: *ns1, pac, pcf, cfm, axd, cgi, cnf, jnlp, pcmcfg, mobileconfig*
 
-• sql, nsf, php, mdb, fp3, fp5, fp7, ldb, ora, myd
+Microsoft: *lit, ldb, mdb, mny, pdb, bkf*
 
-Software
-
-• env, inf, cfg, log, dotenv, inf, ini, lic, blt, conf, log, reg, env, mdb, cfm, config, avastlic
-
-Configurations
-
-• ns1, pac, pcf, cfm, axd, cgi, cnf, jnlp, pcmcfg, mobileconfig
-
-Microsoft 
-
-• lit, ldb, mdb, mny, pdb, bkf
-```

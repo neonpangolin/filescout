@@ -1,5 +1,6 @@
 # Filescout
 Filescout is a minimalistic OSINT utility, designed to expedite file lookup on any given website.
+Depending on the selected flag, Filescout will send multiple request to Google.com, which may result in captchas issues - there, please allow time between searches.
 
 ### Rquirements
 
@@ -13,7 +14,6 @@ git clone https://github.com/aleksanderklug/filescout.git
 cd filescout
 python3 filescout.py
 ```
-Depending on the selected flag, Filescout will send multiple request to Google.com, which may result in captchas issues - there, please allow time between searches
 
 ### Supported filetypes
 

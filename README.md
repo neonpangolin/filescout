@@ -1,14 +1,17 @@
 # filescout
-File lookup using google dorks at warp speed
+File lookup using google dorks at warp speed.
 
 ### Usage
+Requirements
+• requests
+• webbrowser
 ```
 git clone https://github.com/aleksanderklug/filescout.git
 cd /
 python3 filescout.py
 ```
-### Filetypes
-The following filetypes are included.
+### Supported filetypes
+Filescout will look for a variety of filetypes hosted on the target website.
 
 **Documents**: txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
 

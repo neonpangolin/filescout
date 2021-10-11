@@ -1,5 +1,5 @@
 # Filescout
-File lookup using google dorks at warp speed.
+Filescout is a minimalistic OSINT utility, designed to expedite file lookup on any given website.
 
 ### Rquirements
 • requests
@@ -13,6 +13,7 @@ cd /
 python3 filescout.py
 ```
 ### Supported filetypes
+```
 Documents
 
 • txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
@@ -40,3 +41,4 @@ Configurations
 Microsoft 
 
 • lit, ldb, mdb, mny, pdb, bkf
+```

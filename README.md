@@ -1,4 +1,4 @@
-# filescout
+# Filescout
 File lookup using google dorks at warp speed.
 
 ### Rquirements
@@ -13,30 +13,30 @@ cd /
 python3 filescout.py
 ```
 ### Supported filetypes
-**Documents**: 
+Documents
 
 • txt, .rtf, .odt, .csv, .xls, .xlsx, .odp, .ppt, .html, .mht, xml
 
-**Passwords:** 
+Passwords 
 
 • htpasswd, pass, password, pem, csr, netrc, key, pgp, asc
 
-**Emails:** 
+Emails
 
 • eml, mbx, wab
 
-**Databases:** 
+Databases
 
 • sql, nsf, php, mdb, fp3, fp5, fp7, ldb, ora, myd
 
-**Software:** 
+Software
 
 • env, inf, cfg, log, dotenv, inf, ini, lic, blt, conf, log, reg, env, mdb, cfm, config, avastlic
 
-**Configurations:** 
+Configurations
 
 • ns1, pac, pcf, cfm, axd, cgi, cnf, jnlp, pcmcfg, mobileconfig
 
-**Microsoft:** 
+Microsoft 
 
 • lit, ldb, mdb, mny, pdb, bkf

@@ -1,3 +1,6 @@
+![filescout_black](https://user-images.githubusercontent.com/83586282/137082844-731cac71-a8d3-4dfb-b6a1-ff3a0f9b88a3.png)
+
+
 # Filescout
 
 ### Introduction

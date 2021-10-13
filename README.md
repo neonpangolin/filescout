@@ -1,6 +1,12 @@
-![filescout](https://user-images.githubusercontent.com/83586282/136834438-cb0312d5-c7ef-4767-8ccd-9d1aecee295d.png)
+<h1 align="center">
+  <br>
+  <a ![favicon](https://user-images.githubusercontent.com/83586282/137079711-670f237d-555b-410a-b9af-c5865ade26f0.png) </a>
+  <br>
+ Fileccout
+  <br>
+</h1>
 
-# Filescout
+### Introduction
 A minimalistic OSINT utility, designed to expedite file lookups on any given website.
 Depending on the selected flag, Filescout will send multiple request to Google.com, which may result in captchas issues - there, please allow time between searches.
 

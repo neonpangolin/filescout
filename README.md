@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-![favicon](https://user-images.githubusercontent.com/83586282/137080031-d39195db-5d31-4370-b368-d448246e0fcd.png)
+Filescout
   </br>
 </h1>
 ### Introduction

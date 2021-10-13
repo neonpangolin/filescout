@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a ![favicon](https://user-images.githubusercontent.com/83586282/137079711-670f237d-555b-410a-b9af-c5865ade26f0.png) </a>
+![favicon](https://user-images.githubusercontent.com/83586282/137079711-670f237d-555b-410a-b9af-c5865ade26f0.png)
   <br>
- Fileccout
+ Filescout
   <br>
 </h1>
 

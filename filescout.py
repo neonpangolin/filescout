@@ -2,30 +2,33 @@
 # Import libraries and modules
 import webbrowser, requests
 
+c_red   =   "\033[01;31m"
+c_clear   =   "\033[0m"
+
 print('')
-print('   /$$$$$$$$$/$$$$/$$$$    /$$$$$$$$')
-print('  | $$$$$$$$$ $$$$ $$$$   | $$$$$$$$')
-print('  | $$$$   /| $$$$ $$$$   | $$$$   /')
-print('  | $$$$$$$$| $$$$ $$$$   | $$$$$$$$')
-print('  | $$$$$$$$| $$$$ $$$$   | $$$$$$$$')
-print('  | $$$$___/| $$$$ $$$$   | $$$$   /')
-print('  | $$$$    | $$$$ $$$$$$$$ $$$$$$$$')
-print('  | $$$$    | $$$$ $$$$$$$$ $$$$$$$$')
-print('  |/___/    |/___//______/|/_______/')
+print('\033[01;31m   /$$$$$$$$$/$$$$/$$$$    /$$$$$$$$')
+print('\033[01;31m  | $$$$$$$$$ $$$$ $$$$   | $$$$$$$$')
+print('\033[01;31m  | $$$$   /| $$$$ $$$$   | $$$$   /')
+print('\033[01;31m  | $$$$$$$$| $$$$ $$$$   | $$$$$$$$')
+print('\033[01;31m  | $$$$$$$$| $$$$ $$$$   | $$$$$$$$')
+print('\033[01;31m  | $$$$___/| $$$$ $$$$   | $$$$   /')
+print('\033[01;31m  | $$$$    | $$$$ $$$$$$$$ $$$$$$$$')
+print('\033[01;31m  | $$$$    | $$$$ $$$$$$$$ $$$$$$$$')
+print('\033[01;31m  |/___/    |/___//______/|/_______/')
 print('')
-print('   /$$$$$$$$/$$$$$$$$/$$$$$$$$$$$$/$$$$   /$$$$/$$$$$$$$$$$$')
-print('  | $$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$  | $$$$ $$$$$$$$$$$$')
-print('  | $$$$   | $$$$___/ $$$$__/ $$$$ $$$$  | $$$$/__/ $$$$___/')
-print('  | $$$$$$$$ $$$$   | $$$$  | $$$$ $$$$  | $$$$   | $$$$')
-print('  |/___ $$$$ $$$$   | $$$$  | $$$$ $$$$  | $$$$   | $$$$')
-print('   /$$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$$$$$$$$$   | $$$$')
-print('  | $$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$$$$$$$$$   | $$$$')
-print('  |/_______/________//___________//__________/    |/___/')
-print('')
+print('\033[01;31m   /$$$$$$$$/$$$$$$$$/$$$$$$$$$$$$/$$$$   /$$$$/$$$$$$$$$$$$')
+print('\033[01;31m  | $$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$  | $$$$ $$$$$$$$$$$$')
+print('\033[01;31m  | $$$$   | $$$$___/ $$$$__/ $$$$ $$$$  | $$$$/__/ $$$$___/')
+print('\033[01;31m  | $$$$$$$$ $$$$   | $$$$  | $$$$ $$$$  | $$$$   | $$$$')
+print('\033[01;31m  |/___ $$$$ $$$$   | $$$$  | $$$$ $$$$  | $$$$   | $$$$')
+print('\033[01;31m   /$$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$$$$$$$$$   | $$$$')
+print('\033[01;31m  | $$$$$$$$ $$$$$$$$ $$$$$$$$$$$$ $$$$$$$$$$$$   | $$$$')
+print('\033[01;31m  |/_______/________//___________//__________/    |/___/')
+print('"\033[0m"')
 
 # Name of target website
 print('Please enter the name of the target website')
-target = input('> ')
+target = input('... ')
 
 print('Please select the filetypes you would like to search for')
 print('-d (documents) -p (passwords) -e (emails)')
@@ -33,7 +36,9 @@ print('-b (databases) -s (software) -c (configurations)')
 print('or -m (microsoft)')
 
 # Defines action to take
-flag = input('> ')
+flag = input('... ')
+
+keyword = input('... ')
 
 # Document files
 docs = ['txt','rtf','odt','csv','xls','xlsx','odp','ppt','html','mht','xml']
@@ -60,39 +65,39 @@ microsoft = ['lit','lit','ldb','mdb','mny','pdb','bkf']
 # Push list in exploits_list.py to function parameters
 def search(docs):
     for i in docs:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 def search(passwords):
     for i in passwords:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 def search(emails):
     for i in emails:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 
 def search(databases):
     for i in databases:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 
 def search(software):
     for i in software:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 def search(configurations):
     for i in configurations:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 def search(mirosoft):
     for i in mirosoft:
-        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i
+        url = 'http://google.com/search?q=site%3A' + target + '+filetype%3A' + i + '+%22'+ keyword + '%22'
         webbrowser.open(url)
 
 if '-d' in flag:
@@ -110,4 +115,6 @@ elif '-c' in flag:
 elif '-m' in flag:
     search(microsoft)
 else:
+    print('"\033[01;31m"')
     print('Please pass a valid argument')
+

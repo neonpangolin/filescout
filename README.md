@@ -1,10 +1,4 @@
-<h1 align="center">
-  <br>
-![favicon](https://user-images.githubusercontent.com/83586282/137079711-670f237d-555b-410a-b9af-c5865ade26f0.png)
-  <br>
- Filescout
-  <br>
-</h1>
+![favicon](https://user-images.githubusercontent.com/83586282/137080031-d39195db-5d31-4370-b368-d448246e0fcd.png)
 
 ### Introduction
 A minimalistic OSINT utility, designed to expedite file lookups on any given website.

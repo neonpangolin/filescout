@@ -1,5 +1,8 @@
+<h1 align="center">
+  <br>
 ![favicon](https://user-images.githubusercontent.com/83586282/137080031-d39195db-5d31-4370-b368-d448246e0fcd.png)
-
+  </br>
+</h1>
 ### Introduction
 A minimalistic OSINT utility, designed to expedite file lookups on any given website.
 Depending on the selected flag, Filescout will send multiple request to Google.com, which may result in captchas issues - there, please allow time between searches.

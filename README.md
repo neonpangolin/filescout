@@ -1,5 +1,4 @@
-![filescout_black](https://user-images.githubusercontent.com/83586282/137082844-731cac71-a8d3-4dfb-b6a1-ff3a0f9b88a3.png)
-
+![filescout_logo](https://user-images.githubusercontent.com/83586282/137083724-27d6284a-6758-4003-aee5-b899aaf61ea3.png)
 
 # Filescout
 
@@ -21,8 +20,7 @@ python3 filescout.py
 ```
 
 ### Example
-<img width="476" alt="Screenshot 2021-10-13 at 09 00 04" src="https://user-images.githubusercontent.com/83586282/137083189-4ac83107-0fe0-40c1-a357-d652b9d881e7.png">
-
+<img width="487" alt="filescout_usage" src="https://user-images.githubusercontent.com/83586282/137083690-4461f584-f344-4c25-bbb2-f83cb41ba131.png">
 
 ### Supported filetypes
 

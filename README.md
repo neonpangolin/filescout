@@ -4,7 +4,6 @@
 
 ### Introduction
 A minimalistic OSINT utility, designed to expedite file lookups on any given website.
-Depending on the selected flag, Filescout will send multiple request to Google.com, which may result in captchas issues - please allow time between searches.
 
 ### Rquirements
 
@@ -21,7 +20,7 @@ python3 filescout.py
 
 ### Example
 <img width="487" alt="filescout_usage" src="https://user-images.githubusercontent.com/83586282/137083690-4461f584-f344-4c25-bbb2-f83cb41ba131.png">
-
+Depending on the selected flag, Filescout will send multiple request to Google, which may result in captchas issues - please allow time between searches.
 ### Supported filetypes
 
 Documents

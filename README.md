@@ -1,5 +1,3 @@
-![filescout_logo](https://user-images.githubusercontent.com/83586282/137083724-27d6284a-6758-4003-aee5-b899aaf61ea3.png)
-
 # Filescout
 
 ### Introduction

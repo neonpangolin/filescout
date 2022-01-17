@@ -11,7 +11,7 @@ A minimalistic OSINT utility, designed to expedite file lookups on any given web
 
 ### Usage
 ```
-git clone https://github.com/aleksanderklug/filescout.git
+git clone https://github.com/osintx/filescout.git
 cd filescout
 python3 filescout.py
 ```
